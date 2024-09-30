@@ -1,0 +1,71 @@
+.entry {
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+.unchecked::before {
+    content: "☐ ";
+}
+
+.checked::before {
+    content: "🗹 ";
+}
+
+/* Old confetti Code */
+/* .confetti {
+    width: 2vw;
+    height: 2vh;
+    background-color: red;
+    position: absolute;
+    animation: move 8s forwards;
+} */
+
+/* @keyframes move {
+    0% {
+        bottom: 75vw;
+    }
+    100% {
+        bottom: -1000vw;
+    }
+}   */
+
+.x::after {
+    content: " ☒";
+}
+
+.level {
+    text-align: left;
+    font-size: 2vw;
+}
+
+.exp {
+    text-align: left;
+    font-size: 1.35vw;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes fadeincompletely {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.popupsummoner {
+    font-size: 1.5vw;
+}
+
+.cleardata {
+    font-size: 1.35vw;
+    float: right;
+}

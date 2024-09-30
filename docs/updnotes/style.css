@@ -1,0 +1,16 @@
+body {
+    overflow: visible;
+}
+
+.box {
+    background-color: #141414;
+    border-radius: 12px;
+}
+
+.updtitle {
+    font-size: 3vw;
+}
+
+.miniupdtitle {
+    font-size: 2.25vw;
+}
