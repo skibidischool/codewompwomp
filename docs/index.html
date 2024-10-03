@@ -13,17 +13,6 @@
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-remote-config.js"></script>
 	
 	<script src="js/dependencyLoader.js?v=3"></script>
-    <script>
-
-      window.addEventListener("beforeunload", function (e) {
-        if (adsVisible || !window.gameLoaded || !lockedOccured)
-          return null;
-        var confirmationMessage = 'Are you sure you want to leave? ';
-        (e || window.event).returnValue = confirmationMessage; //Gecko + IE
-        return confirmationMessage; //Gecko + Webkit, Safari, Chrome etc.
-      });
-      window.alert = function(e) {console.log(e)};
-    </script>
     <link rel='shortcut icon' type="image/png" href="img/favicon.png?v3" />
     
 	<link rel="alternate" href="index.html" hreflang="en">
