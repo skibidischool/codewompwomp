@@ -55,9 +55,9 @@ function loadGame() {
 
 async function isGameLoaded() {
     await sleep(5000);
-    if(window.gameStartLoading === undefined) {
-        location.reload();
-    }
+    // if(window.gameStartLoading === undefined) {
+    //     location.reload();
+    // }
 }
 
 function initFirebaseLibraries() {
