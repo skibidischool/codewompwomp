@@ -1,5 +1,6 @@
-<html>
-    <body>
-        <h1>W</h1>
-    </body>
-</html>
+<Module>
+<ModulePrefs title=""/>
+<Content type="html">
+<![CDATA[ <!DOCTYPE html> <html lang="en-us"> <body><h1>Hi!</hi></body> </html> ]]>
+</Content>
+</Module>
